@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(31, 31, 31);
+}
+div{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    display: flex;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: rgb(142, 210, 255);
+}
+.first{
+    width: 30px;
+    height: 30px;
+    list-style: none;
+    background-color: rgb(107, 21, 0);
+    margin: 0 10px;
+    border-radius: 50%;
+    animation: first 3s ease-in-out infinite;
+}
+.second{
+    width: 30px;
+    height: 30px;
+    list-style: none;
+    background-color: rgb(142, 210, 255);
+    margin: 0 10px;
+    border-radius: 50%;
+    animation: first 3s ease-out infinite;
+}
+.third{
+    width: 30px;
+    height: 30px;
+    list-style: none;
+    background-color: rgb(107, 21, 0);
+    margin: 0 10px;
+    border-radius: 50%;
+    animation: first 3s ease-in infinite;
+}
+.four{
+    width: 30px;
+    height: 30px;
+    list-style: none;
+    background-color: rgb(142, 210, 255);
+    margin: 0 10px;
+    border-radius: 50%;
+    animation: first 3s ease infinite;
+}
+.five{
+    width: 30px;
+    height: 30px;
+    list-style: none;
+    background-color: rgb(107, 21, 0);
+    margin: 0 10px;
+    border-radius: 50%;
+    animation: first 3s linear infinite;
+}
+@keyframes first{
+    0%   {transform: translateY(0px ); box-shadow: 10px 0px 30px rgb(142, 210, 255);}
+    10%  {transform: translateX( -70px ); box-shadow: -10px 20px 30px rgb(107, 21, 0);}
+    50%  {transform: translateY( -140px ); box-shadow: -10px -20px 30px rgb(142, 210, 255);}
+    90%  {transform: translateX( 70px ); box-shadow: 10px -20px 30px rgb(107, 21, 0) ;}
+    100% {transform: translateY(0px); box-shadow: 10px 0px 30px rgb(142, 210, 255);)
+}
